@@ -27,7 +27,7 @@ int nbOccurence(char v[],int N, char x){
 }
 void AfficherNbOcc(char v[],int N){
         for(int i=0;i<=N;i++){
-                int j=0;
+            int j=0;
            while(v[j]!=v[i] && j<i){
                 j++;
            }
